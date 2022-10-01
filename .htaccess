@@ -1,0 +1,32 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php [L]
+
+<Files *.php>
+
+    Order Deny,Allow
+
+    Deny from all
+
+</Files>
+
+<Files index.php>
+
+    Order Allow,Deny
+
+    Allow from all
+
+</Files>
+
+Header set Access-Control-Allow-Origin *
+
+
+#RewriteEngine On
+
+#RewriteCond %{SERVER_PORT} 80
+
+#RewriteRule ^(.*)$ localhost/gym/$1 [R,L]
