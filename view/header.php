@@ -48,8 +48,8 @@
                          <!-- Info List -->
                          <ul class="info-list">
                              <li><span class="icon fa fa-location-arrow"></span> 27 Division St, New York, USA</li>
-                             <li><span class="icon fa fa-phone"></span> <a href="tel:+1-044-123-456-789"> +1 (044) 123 456 789</a></li>
-                             <li><span class="icon fa fa-envelope-o"></span> <a href="mailto:info@example.com"> info@example.com</a></li>
+                             <li><span class="icon fa fa-phone"></span> <a href="tel:+1-044-123-456-789"> +216  31 16 20 02 </a></li>
+                             <li><span class="icon fa fa-envelope-o"></span> <a href="mailto:info@example.com"> msidefitness86@gmail.com</a></li>
                          </ul>
                      </div>
                      
@@ -97,10 +97,10 @@
                          <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                              <ul class="navigation clearfix">
                                  <li class="<?=$active_page == "home"?"current":""?>"><a href="<?=_BASE_?>">Home</a> </li>
-                                 <li class="<?=$active_page == "about"?"current":""?>"><a href="<?=_BASE_?>about">About</a> </li>
                                  <li class="<?=$active_page == "classes"?"current":""?>"><a href="<?=_BASE_?>classes">Classes</a> </li>
-                                 <li class="<?=$active_page == "portfolios"?"current":""?>"><a href="<?=_BASE_?>portfolios">Portfolios</a> </li>
-                                 <li class="<?=$active_page == "contact"?"current":""?>"><a href="<?=_BASE_?>contact">Contact</a></li>
+                                 <li class="<?=$active_page == "price"?"current":""?>"><a href="<?=_BASE_?>price">Prices</a> </li>
+                                <li class="<?=$active_page == "about"?"current":""?>"><a href="<?=_BASE_?>about">About</a> </li>
+                                <li class="<?=$active_page == "contact"?"current":""?>"><a href="<?=_BASE_?>contact">Contact</a></li>
                              </ul>
                          </div>
                      </nav>
