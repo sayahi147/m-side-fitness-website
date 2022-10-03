@@ -63,7 +63,7 @@
 
 						</div>
 
-						<div class="text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+						<!--<div class="text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div> -->
 
 					</div>
 
@@ -181,7 +181,7 @@
 
 			<div class="map-outer">
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25216.765666144616!2d144.9456413371385!3d-37.8112271492458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2s!4v1598513355690!5m2!1sen!2s" height="500" ></iframe>
+				<iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=m side fitness tunisia&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" height="500" ></iframe>
 
 			</div>
 
@@ -221,8 +221,7 @@
 
 									<strong>Location</strong>
 
-									27 Division St, New York, USA
-
+									Ariana soghra,Ariana,Tunisia
 								</li>
 
 								<li>
@@ -231,7 +230,7 @@
 
 									<strong>Contact</strong>
 
-									<a href="tel:+1-044-123-456-789">+1 (044) 123 456 789</a>
+									<a href="tel:+1-044-123-456-789">+216 31 16 20 02</a>
 
 								</li>
 
@@ -241,7 +240,7 @@
 
 									<strong>Email</strong>
 
-									<a href="mailto:info@example.com">info@example.com</a>
+									<a href="mailto:info@example.com">msidefitness86@gmail.com</a>
 
 								</li>
 

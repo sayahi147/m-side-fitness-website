@@ -1,6 +1,6 @@
 	<!-- Pricing Section -->
 	<section class="pricing-section">
-		<div class="image-layer" style="background-image:url(assets/images/background/6.jpg)"></div>
+		<div class="image-layer" style="background-image:url(assets/images/background/5.jpg)"></div>
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="sec-title light centered">

@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>M-Side Fitness</title>
 <!-- Stylesheets -->
+<link rel="icon" class="w3-xlarge" href="assets/images/favicon.png" sizes="10x10" />
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 
 <link href="assets/css/style.css" rel="stylesheet">
@@ -47,7 +48,7 @@
                      <div class="top-left pull-left">
                          <!-- Info List -->
                          <ul class="info-list">
-                             <li><span class="icon fa fa-location-arrow"></span> 27 Division St, New York, USA</li>
+                             <li><span class="icon fa fa-location-arrow"></span> Ariana soghra, Ariana, Tunisia</li>
                              <li><span class="icon fa fa-phone"></span> <a href="tel:+1-044-123-456-789"> +216  31 16 20 02 </a></li>
                              <li><span class="icon fa fa-envelope-o"></span> <a href="mailto:info@example.com"> msidefitness86@gmail.com</a></li>
                          </ul>
@@ -96,9 +97,10 @@
                          
                          <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                              <ul class="navigation clearfix">
-                                 <li class="<?=$active_page == "home"?"current":""?>"><a href="<?=_BASE_?>">Home</a> </li>
-                                 <li class="<?=$active_page == "classes"?"current":""?>"><a href="<?=_BASE_?>classes">Classes</a> </li>
-                                 <li class="<?=$active_page == "price"?"current":""?>"><a href="<?=_BASE_?>price">Prices</a> </li>
+                                <li class="<?=$active_page == "home"?"current":""?>"><a href="<?=_BASE_?>">Home</a> </li>
+                                <li class="<?=$active_page == "classes"?"current":""?>"><a href="<?=_BASE_?>classes">Classes</a> </li>
+                                <li class="<?=$active_page == "table"?"current":""?>"><a href="<?=_BASE_?>table">Planning</a> </li>
+                                <li class="<?=$active_page == "price"?"current":""?>"><a href="<?=_BASE_?>price">Prices</a> </li>
                                 <li class="<?=$active_page == "about"?"current":""?>"><a href="<?=_BASE_?>about">About</a> </li>
                                 <li class="<?=$active_page == "contact"?"current":""?>"><a href="<?=_BASE_?>contact">Contact</a></li>
                              </ul>
@@ -116,7 +118,7 @@
              <div class="auto-container clearfix">
                  <!--Logo-->
                  <div class="logo pull-left">
-                     <a href="index.html" title=""><img src="assets/images/logo-small.png" alt="" title=""></a>
+                     <a href="index.html" title=""><img src="assets/images/logo_msf.png" alt="" title=""></a>
                  </div>
                  <!--Right Col-->
                  <div class="pull-right">

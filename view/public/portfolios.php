@@ -102,7 +102,7 @@
 				<div class="gallery-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<img src="assets/images/gallery/6.jpg" alt="" />
+							<img src="assets/images/gallery/4.jpg" alt="" />
 							<div class="content">
 								<div class="content-inner">
 									<h6><a href="portfolio">Cardio Program</a></h6>

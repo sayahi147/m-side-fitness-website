@@ -2,7 +2,7 @@
 	<section class="counter-section margin-top">
 		<div class="auto-container">
 			<div class="inner-container">
-				<div class="pattern-layer" style="background-image:url(assets/images/background/4.jpg)"></div>
+				<div class="pattern-layer" style="background-image:url(assets/images/background/5.jpg)"></div>
 				<!-- Fact Counter -->
 				<div class="fact-counter">
 					<div class="row clearfix">
