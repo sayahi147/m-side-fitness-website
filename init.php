@@ -10,7 +10,8 @@ error_reporting(E_ALL);
 
 /*--------------DIRS------------------ */
 
-define("_BASE_","/".basename(__DIR__)."/");
+// define("_BASE_","/".basename(__DIR__)."/");
+define("_BASE_","/");
 
 define("PROTOCOL","https://");
 
