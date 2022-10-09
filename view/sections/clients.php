@@ -8,11 +8,10 @@
                     <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/actia-logo.jpeg" alt=""></figure></li>
                     <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/intercom_logo.png" alt=""></figure></li>
                     <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/sydri.png" alt=""></figure></li>
-                    <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/4.png" alt=""></figure></li>
-                    <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/5.png" alt=""></figure></li>
-					<li class="slide-item"><figure class="image-box"><img src="assets/images/clients/1.png" alt=""></figure></li>
-					<li class="slide-item"><figure class="image-box"><img src="assets/images/clients/2.png" alt=""></figure></li>
-					<li class="slide-item"><figure class="image-box"><img src="assets/images/clients/3.png" alt=""></figure></li>
+                    <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/wevio.png" alt=""></figure></li>
+                    <li class="slide-item"><figure class="image-box"><img src="assets/images/clients/aman.jpeg" alt=""></figure></li>
+					<li class="slide-item"><figure class="image-box"><img src="assets/images/clients/Logo_BNA.jpg" alt=""></figure></li>
+					<li class="slide-item"><figure class="image-box"><img src="assets/images/clients/st.jpg" alt=""></figure></li>
                 </ul>
             </div>
             

@@ -14,28 +14,27 @@
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
-                                    	<a href="index.html"><img src="assets/images/logo_msf.png" alt="" /></a>
+                                    	<a href="home"><img src="assets/images/logo_msf.png" alt="" /></a>
                                     </div>
 									<ul class="footer-info-list">
-										<li><span class="icon fa fa-location-arrow"></span>27 Division St, New York, <br> United State Aamrica</li>
-										<li><span class="icon fa fa-phone"></span><a href="tel:+1-044-123-456-789">+1 (044) 123 456 789</a></li>
-										<li><span class="icon fa fa-envelope-o"></span><a href="mailto:info@example.com">info@example.com</a></li>
+										<li><span class="icon fa fa-location-arrow"></span>Ariana soghra, Ariana,<br>Tunisia</li>
+										<li><span class="icon fa fa-phone"></span><a href="tel:+116-31-16-20-02">+216  31 16 20 02 </a></li>
+										<li><span class="icon fa fa-envelope-o"></span><a href="mailto:info@example.com">msg@example.com</a></li>
 									</ul>
 								</div>
 							</div>
 							
 							<!-- Footer Column -->
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h4>Useful Links</h4>
-									<ul class="list-link">
-										<li><a href="#">Terms and Conditions</a></li>
-										<li><a href="#">Privacy Policy</a></li>
-										<li><a href="#">Cookie Policy & Date Protection</a></li>
-										<li><a href="#">Complaints Policy</a></li>
-										<li><a href="#">TimeTable Maniged</a></li>
-										<li><a href="#">Update News</a></li>
-									</ul>
+                                <div class="footer-widget consult-widget">
+									<h4>Free Consultation</h4>
+									<div class="phone"><span class="icon fa fa-phone"></span> +216  31 16 20 02</div>
+									<div class="text">Power GYM lift is champ in providing its users with absolutely everything a fitness or gym site needs.</div>
+									<div class="social-links">
+										<a href="https://www.facebook.com/profile.php?id=100057632393402" class="fa fa-facebook"></a>
+										<a href="https://www.instagram.com/m_side_fitness/?hl=fr" class="fa fa-instagram"></a>
+									
+									</div>
 								</div>
 							</div>
 							
@@ -70,11 +69,11 @@
 
 									<ul>
 
-										<li>Monday – Friday:<span>07:00 – 21:00</span></li>
+										<li>Monday – Friday:<span>06:30 – 22:00</span></li>
 
-										<li>Saturday:<span>07:00 – 16:00</span></li>
+										<li>Saturday:<span>08:00 – 19:00</span></li>
 
-										<li>Sunday Closed</li>
+										<li>Sunday:<span>08:00 – 19:00</span></li>
 
 									</ul>
 

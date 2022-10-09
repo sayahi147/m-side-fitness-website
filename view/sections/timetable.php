@@ -4,7 +4,7 @@
 			<!-- Sec Title -->
 			<div class="sec-title centered">
 				<div class="title">Time Table</div>
-				<h2>Working housr <br> & Classes</h2>
+				<h2>Working hours <br> & Classes</h2>
 			</div>
 			<div class="inner-container">
 				<div class="table-outer">
@@ -147,10 +147,19 @@
 											<!-- Time Box -->
 											<div class="time-box">
 												<div class="box-inner">
+													<div class="time">Cardio Burn <span>MAdona&&&&&&& FRON <br> 11:00  -  12:00</span></div>
+												</div>
+											</div>
+											<div class="time-box">
+												<div class="box-inner">
 													<div class="time">Cardio Burn <span>MAdona FRON <br> 11:00  -  12:00</span></div>
 												</div>
 											</div>
-											
+											<div class="time-box">
+												<div class="box-inner">
+													<div class="time">Cardio Burn <span>MAdona FRON <br> 11:00  -  12:00</span></div>
+												</div>
+											</div>
 											<!-- Time Box -->
 											<div class="time-box">
 												<div class="box-inner">
