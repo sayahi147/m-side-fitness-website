@@ -41,7 +41,7 @@
 
 									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 
-										<input type="text" name="cm" placeholder="185 Cm" required>
+										<input type="text" name="cm" placeholder="185 Cm" required id="num1">
 
 									</div>
 
@@ -49,7 +49,7 @@
 
 									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 
-										<input type="text" name="weight" placeholder="Weight / kg" required>
+										<input type="text" name="weight" placeholder="Weight / kg" required id="num2">
 
 									</div>
 
@@ -57,8 +57,8 @@
 
 									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 
-										<input type="text" name="age" placeholder="Age" required>
-
+										<input type="text" name="age" placeholder="Age" required id="num3">
+                                        
 									</div>
 
 									
@@ -85,9 +85,11 @@
 
 											<option>Select an activity factor</option>
 
-											<option>Factor 01</option>
+											<option>no exercise</option>
 
-											<option>Factor 02</option>
+											<option>light exercise/sports 1-3 days/week</option>
+											<option>moderate exercise/sports 3-5 days/week</option>
+											<option>hard exercise/sports 6-7 days/week</option>
 
 										</select>
 
@@ -97,7 +99,8 @@
 
 									<div class="form-group col-lg-12 col-md-12 col-sm-12">
 
-										<div class="btn-two-outer"><button class="theme-btn btn-style-two" type="submit" name="submit-form"><span class="txt">Calculate</span></button></div>
+										<div class="btn-two-outer"><button class="theme-btn btn-style-two" type="button" onclick="calc()"><span class="txt">Calculate</span></button></div>
+                                        <input type="text" placeholder="Your BMI" class="col-lg-6 col-md-6 col-sm-12 form-group" id="bmi" readonly="readonly"/>
 
 									</div>
 
@@ -184,4 +187,13 @@
 		</div>
 
 	</section>
+<script>
+    function calc() {
+        let num1 = Number(document.querySelector("#num1").value)/100;
+        let num2 = Number(document.querySelector("#num2").value);
+        let bmi = num2 /(num1*num1);
+		bmi=parseFloat(bmi).toFixed(2)
+        document.getElementById("bmi").value = bmi;
+    }
+</script>
 	<!-- End Calculate Section Two -->
