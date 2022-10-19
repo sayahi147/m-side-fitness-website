@@ -1,4 +1,4 @@
-<?php include "view/header.php"; ?>
+<?php include "view/public/header.php"; ?>
 	
 	<!--Page Title-->
     <section class="page-title" style="background-image:url(assets/images/background/11.jpg)">
@@ -144,6 +144,6 @@
 	</section>
 	<!-- End Faq Page Section -->
 <?php 
-include "view/sections/subscribe.php";
-include "view/footer.php"; 
+include "view/public/sections/subscribe.php";
+include "view/public/footer.php"; 
 ?>

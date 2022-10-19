@@ -1,5 +1,5 @@
 <?php
-include "view/header.php";
+include "view/public/header.php";
 ?>
 
 
@@ -146,13 +146,13 @@ include "view/header.php";
 
 <?php
 
-include "view/sections/services.php";
-include "view/sections/newsletter.php";
-include "view/sections/benefits.php";
-include "view/sections/fluid_one.php";
-include "view/sections/fact_counter.php";
-include "view/sections/choose.php";
-include "view/sections/clients.php";
+include "view/public/sections/services.php";
+include "view/public/sections/newsletter.php";
+include "view/public/sections/benefits.php";
+include "view/public/sections/fluid_one.php";
+include "view/public/sections/fact_counter.php";
+include "view/public/sections/choose.php";
+include "view/public/sections/clients.php";
 
-include "view/footer.php";
+include "view/public/footer.php";
 ?>

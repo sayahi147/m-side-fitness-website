@@ -1,4 +1,4 @@
-<?php include "view/header.php";?>
+<?php include "view/public/header.php";?>
     
 	<!--Page Title-->
     <section class="page-title" style="background-image:url(assets/images/background/11.jpg)">
@@ -34,5 +34,5 @@
 	
 
 
-<?php include "view/sections/subscribe.php";?>
-<?php include "view/footer.php";?>
+<?php include "view/public/sections/subscribe.php";?>
+<?php include "view/public/footer.php";?>

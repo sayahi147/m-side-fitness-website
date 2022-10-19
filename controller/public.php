@@ -1,6 +1,6 @@
 <?php
 $active_page = "";
-switch($route){
+switch(PATH){
     case "":
     case "home":
     case "index":
@@ -29,7 +29,7 @@ switch($route){
     break;
     case "class":
         $active_page = "classes";
-        include "view/public/classes/class.php";
+        include "view/public/classe.php";
     break;
     case "portfolios":
         $active_page = "portfolios";
@@ -37,7 +37,7 @@ switch($route){
     break;
     case "portfolio":
         $active_page = "portfolios";
-        include "view/public/portfolios/portfolio.php";
+        include "view/public/portfolio.php";
     break;
     case "contact":
         $active_page = "contact";
@@ -65,7 +65,7 @@ switch($route){
         endif;
         include "view/public/contact.php";
     break;
-    default:        
-        include "view/public/404.php";
+    default:       
+        include "controller/auth.php";
 
 }

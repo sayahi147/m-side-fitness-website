@@ -1,4 +1,4 @@
-<?php include "view/header.php"; ?>
+<?php include "view/public/header.php"; ?>
 
 	<!--Page Title-->
 
@@ -262,6 +262,6 @@
 
 	<!-- End Contact Section -->
 <?php 
-include "view/sections/clients.php";
-include "view/sections/subscribe.php";
-include "view/footer.php"; ?>
+include "view/public/sections/clients.php";
+include "view/public/sections/subscribe.php";
+include "view/public/footer.php"; ?>
