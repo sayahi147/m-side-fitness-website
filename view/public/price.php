@@ -23,8 +23,8 @@
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="sec-title centered">
-				<div class="title">Time Table</div>
-				<h2>Working hours <br> & Classes</h2>
+				<div class="title">Price Plan</div>
+				<h2>Prices  <br> & Offers</h2>
 			</div>
 			<div class="row clearfix">
 				

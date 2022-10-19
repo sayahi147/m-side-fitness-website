@@ -57,7 +57,7 @@
                      <!-- Top Right -->
                      <div class="top-right pull-right">
                          
-                         <!--Language-->
+                         <!--Language
                          <div class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><span class="flag-icon fa fa-globe"></span>EN &nbsp;<span class="icon fa fa-angle-down"></span></a>
                              <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
                                  <li><a href="#">English</a></li>
@@ -65,7 +65,7 @@
                                  <li><a href="#">Arabic</a></li>
                                  <li><a href="#">Hindi</a></li>
                              </ul>
-                         </div>
+                         </div> -->
                          
                      </div>
                      
@@ -100,8 +100,9 @@
                                 <li class="<?=$active_page == "home"?"current":""?>"><a href="<?=_BASE_?>">Home</a> </li>
                                 <li class="<?=$active_page == "classes"?"current":""?>"><a href="<?=_BASE_?>classes">Classes</a> </li>
                                 <li class="<?=$active_page == "table"?"current":""?>"><a href="<?=_BASE_?>table">Planning</a> </li>
+                                <li class="<?=$active_page == "team"?"current":""?>"><a href="<?=_BASE_?>team">Coaches</a> </li>
+
                                 <li class="<?=$active_page == "price"?"current":""?>"><a href="<?=_BASE_?>price">Prices</a> </li>
-                                <li class="<?=$active_page == "about"?"current":""?>"><a href="<?=_BASE_?>about">About</a> </li>
                                 <li class="<?=$active_page == "contact"?"current":""?>"><a href="<?=_BASE_?>contact">Contact</a></li>
                              </ul>
                          </div>

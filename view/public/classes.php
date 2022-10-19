@@ -37,7 +37,7 @@
 							<div class="title">GYM</div>
 							<h4><a href="class">Psycho Training</a></h4>
 							<div class="text">Winning means you’re willing to go longer, work harder for more.</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>
@@ -53,9 +53,9 @@
 						</div>
 						<div class="lower-content">
 							<div class="title">CARDIO</div>
-							<h4><a href="class">Self Defence</a></h4>
+							<h4><a href="class">KickBoxing</a></h4>
 							<div class="text">Don’t practice until you get it right practice until can’t wrong</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>
@@ -71,9 +71,9 @@
 						</div>
 						<div class="lower-content">
 							<div class="title">Fitness</div>
-							<h4><a href="class">FITNESS FOR MAN</a></h4>
+							<h4><a href="class">ZUMBA</a></h4>
 							<div class="text">Winning means you’re willing to go longer, work harder for more.</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>
@@ -91,7 +91,7 @@
 							<div class="title">STRENGTH</div>
 							<h4><a href="class">Strength Training</a></h4>
 							<div class="text">Winning means you’re willing to go longer, work harder for more.</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>
@@ -107,9 +107,26 @@
 						</div>
 						<div class="lower-content">
 							<div class="title">CARDIO</div>
-							<h4><a href="class">Cardio For Man</a></h4>
+							<h4><a href="class">STEP</a></h4>
 							<div class="text">Don’t practice until you get it right practice until can’t wrong</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
+						</div>
+					</div>
+				</div>
+				<!-- Classess Block -->
+				<div class="classess-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<a href="class"><img src="assets/images/resource/cycling.jpg" alt="" /></a>
+							<div class="icon-box">
+								<span class="icon flaticon-machine"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="title">FITNESS</div>
+							<h4><a href="class">CYCLING</a></h4>
+							<div class="text">Don’t practice until you get it right practice until can’t wrong</div>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>
@@ -127,7 +144,7 @@
 							<div class="title">Nutrition</div>
 							<h4><a href="class">Advance GYM</a></h4>
 							<div class="text">Winning means you’re willing to go longer, work harder for more.</div>
-							<a class="read-more" href="class">Read More</a>
+							<a class="read-more" href="table">Planning</a>
 						</div>
 					</div>
 				</div>

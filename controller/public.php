@@ -11,6 +11,10 @@ switch(PATH){
         $active_page = "about";
         include "view/public/about.php";
     break;
+    case "team":
+        $active_page="team";
+        include "view/team.php";
+    break;
     case "price":
         $active_page = "price";
         include "view/public/price.php";

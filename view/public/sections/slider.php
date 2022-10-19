@@ -13,7 +13,6 @@
 						<div class="title">Runner’s Life</div>
 						<h1>The Best <br> Fitness Studio <br> in Town</h1>
 						<div class="link-box clearfix">
-							<div class="btn-one-outer"><a href="#" class="theme-btn btn-style-one"><span class="txt">Join Us Now</span></a></div>
 						</div>
 						<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
 					</div>
@@ -31,7 +30,6 @@
 						<div class="title">Runner’s Life</div>
 						<h1>The Best <br> Fitness Studio <br> in Town</h1>
 						<div class="link-box clearfix">
-							<div class="btn-one-outer"><a href="#" class="theme-btn btn-style-one"><span class="txt">Join Us Now</span></a></div>
 						</div>
 						<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
 					</div>
@@ -46,8 +44,7 @@
 						<div class="title">Runner’s Life</div>
 						<h1>The Best <br> Fitness Studio <br> in Town</h1>
 						<div class="link-box clearfix">
-							<div class="btn-one-outer"><a href="#" class="theme-btn btn-style-one"><span class="txt">Join Us Now</span></a></div>
-						</div>
+                		</div>
 						<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
 					</div>
                 </div>
@@ -62,8 +59,7 @@
 						<div class="title">Runner’s Life</div>
 						<h1>The Best <br> Fitness Studio <br> in Town</h1>
 						<div class="link-box clearfix">
-							<div class="btn-one-outer"><a href="#" class="theme-btn btn-style-one"><span class="txt">Join Us Now</span></a></div>
-						</div>
+					</div>
 						<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
 					</div>
                 </div>
