@@ -70,6 +70,6 @@ switch(PATH){
         include "view/public/contact.php";
     break;
     default:       
-        include "controller/auth.php";
+        include "route/auth.php";
 
 }

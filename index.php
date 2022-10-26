@@ -5,13 +5,13 @@ require_once 'init.php';
 // die(ROLE);
 
 if(ROLE == "admin"):
-    include "controller/admin.php"; 
+    include "route/admin.php"; 
     
 elseif(ROLE == "membre"):
-    include "controller/membre.php";  
+    include "route/membre.php";  
 
 else:
-    include "controller/public.php";
+    include "route/public.php";
 
 endif;
 

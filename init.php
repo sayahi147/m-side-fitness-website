@@ -40,9 +40,9 @@ class MSF
     {        
         return $this->connexion->query("SELECT * from users WHERE (username = '$email' OR email = '$email') AND `password`='$password'")->num_rows > 0;
     }
-    public function isUserExist($username)
-    {   
-        return $this->connexion->query("SELECT * from users WHERE username = '$username' OR email = '$username'")->num_rows > 0;  
+    public function isUserExist($username, $id = null)
+    {   $ext = $id == null ? '': "AND id <> '$id'";
+        return $this->connexion->query("SELECT * from users WHERE (username = '$username' OR email = '$username') $ext")->num_rows > 0;  
     }
     public function isUserActive($username)
     {   
@@ -71,7 +71,6 @@ define("PROTOCOL","https://");
 define("DOMAIN", $_SERVER['SERVER_NAME']);
 define("URL",PROTOCOL.DOMAIN._BASE_);
 define("PATH",str_replace(_BASE_,"", $_SERVER["REDIRECT_URL"] ?? ""));
-
 
 /*------------- DATA UNITES -------------*/
 define('KB', 1024);
@@ -110,7 +109,10 @@ if(PATH == "logout") {
 $db = new MSF();
 
 if(isset($db)):
-/*------------------START AUTO-OBSERVER-----------------*/
+
+/*------------------ if tables not exists-----------------*/
+// foreach($sql as $i => $q){ $db->execute($q); }
+
 
 // CHECK CONNEXION
 ini_set('display_errors', '0');

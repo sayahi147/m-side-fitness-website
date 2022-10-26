@@ -1,5 +1,7 @@
 <?php include "view/admin/header.php"; ?>
 
+<?php include "view/admin/footer.php"; exit();?>
+
         <!-- start section content -->
         <div class="content-body">
             <div class="warper container-fluid">

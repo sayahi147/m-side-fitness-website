@@ -63,7 +63,7 @@ switch(PATH){
                                     // $db->execute("DELETE FROM token where user_id = '{$_SESSION['user_id']}'");
                                     redirect('signin?password_changed');
                                     
-                                }else $error = "Erreur de mis à jour!";
+                                }else $error = "Erreur de mis à jour!"; 
 
                             }else {$error = "You will be banned !"; blockThisIp();}
 
@@ -89,7 +89,7 @@ switch(PATH){
                 $_SESSION['role'] = $data["role"];
                 $db->execute("UPDATE users SET active = 1, connected = 1, last_connexion =  CURRENT_TIMESTAMP WHERE user_id = '{$data['user_id']}'");
                 $db->execute("DELETE FROM token WHERE token = '{$_GET['token']}'");
-                redirect('home');
+                redirect('dashboard');
             }else echo "TOKEN HAS BEEN EXPIRED!";
         endif;
     break;
@@ -101,10 +101,11 @@ switch(PATH){
                 $_SESSION['fullname'] = $data["fullname"];
                 $_SESSION['username'] = $data["username"];
                 $_SESSION['user_id'] = $data["user_id"];
+                $_SESSION['id'] = $data["id"];
                 $_SESSION['role'] = $data["role"];
                 $db->execute("UPDATE users SET connected = 1, last_connexion =  CURRENT_TIMESTAMP WHERE user_id = '{$data['user_id']}'");
             }
-            redirect('home');
+            redirect('dashboard');
             exit();
         }
         if($_SERVER['REQUEST_METHOD'] == 'POST'):
@@ -115,6 +116,7 @@ switch(PATH){
                         $_SESSION['username'] = $data["username"];
                         $_SESSION['role'] = $data["role"];
                         $_SESSION['user_id'] = $data["user_id"];
+                        $_SESSION['id'] = $data["id"];
                         $db->execute("UPDATE users SET connected = 1, last_connexion =  CURRENT_TIMESTAMP WHERE user_id = '{$data['user_id']}'");
                         if(isset($rememberme)){
                             $session_token = md5(uniqid());
@@ -142,8 +144,10 @@ switch(PATH){
                 if(!$db->isUserExist($username)){
                     if(!$db->isEmailExist($email)){
                         $password = md5($password);
-                        $data = $db->execute("INSERT INTO users (username, fullname, password, email) VALUES ('$username','$fullname','$password','$email')");
+                        $uid = uniqid('u');
+                        $data = $db->execute("INSERT INTO users (user_id, username, fullname, password, email) VALUES ('$uid', '$username','$fullname','$password','$email')");
                         $data = $db->selectUserData($username);     
+                        $_SESSION['id'] = $data["id"];
                         $_SESSION['fullname'] = $data["fullname"];
                         $_SESSION['username'] = $data["username"];
                         $_SESSION['user_id'] = $data["user_id"];

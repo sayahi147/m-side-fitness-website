@@ -4,22 +4,22 @@
 <meta charset="utf-8">
 <title>M-Side Fitness</title>
 <!-- Stylesheets -->
-<link rel="icon" class="w3-xlarge" href="assets/images/favicon.png" sizes="10x10" />
-<link href="view/public/assets/css/bootstrap.css" rel="stylesheet">
+<link rel="icon" class="w3-xlarge" href="<?=URL?>assets/images/favicon.png" sizes="10x10" />
+<link href="<?=URL?>assets/css/bootstrap.css" rel="stylesheet">
 
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
+<link href="<?=URL?>assets/css/style.css" rel="stylesheet">
+<link href="<?=URL?>assets/css/responsive.css" rel="stylesheet">
 
 <!-- Color Switcher Mockup -->
-<link href="assets/css/color-switcher-design.css" rel="stylesheet">
+<link href="<?=URL?>assets/css/color-switcher-design.css" rel="stylesheet">
 
 <!-- Color Themes -->
-<link id="theme-color-file" href="assets/css/color-themes/default-theme.css" rel="stylesheet">
+<link id="theme-color-file" href="<?=URL?>assets/css/color-themes/default-theme.css" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="assets/assets/images/favicon.png" type="image/x-icon">
-<link rel="icon" href="assets/assets/images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="<?=URL?>assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="<?=URL?>assets/images/favicon.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,7 +78,7 @@
              <div class="auto-container clearfix">
                  
                  <div class="pull-left logo-box">
-                     <div class="logo"><a href="<?=_BASE_?>"><img src="assets/images/logo_msf.png" alt="" title=""></a></div>
+                     <div class="logo"><a href="<?=_BASE_?>"><img src="<?=URL?>assets/images/logo_msf.png" alt="" title=""></a></div>
                  </div>
                  
                  <div class="nav-outer clearfix">
@@ -119,7 +119,7 @@
              <div class="auto-container clearfix">
                  <!--Logo-->
                  <div class="logo pull-left">
-                     <a href="index.html" title=""><img src="assets/images/logo_msf.png" alt="" title=""></a>
+                     <a href="index.html" title=""><img src="<?=URL?>assets/images/logo_msf.png" alt="" title=""></a>
                  </div>
                  <!--Right Col-->
                  <div class="pull-right">
@@ -138,7 +138,7 @@
              <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
              
              <nav class="menu-box">
-                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                 <div class="nav-logo"><a href="index.html"><img src="<?=URL?>assets/images/logo-2.png" alt="" title=""></a></div>
                  <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
              </nav>
          </div><!-- End Mobile Menu -->

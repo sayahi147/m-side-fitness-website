@@ -1,6 +1,6 @@
 	
 	<!-- Main Footer -->
-    <footer class="main-footer style-two" style="background-image:url(assets/images/background/pattern-4.png)">
+    <footer class="main-footer style-two" style="background-image:url(<?=URL?>assets/images/background/pattern-4.png)">
 		<div class="auto-container">
         	<!-- Widgets Section -->
             <div class="widgets-section">
@@ -14,7 +14,7 @@
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
-                                    	<a href="home"><img src="assets/images/logo_msf.png" alt="" /></a>
+                                    	<a href="home"><img src="<?=URL?>assets/images/logo_msf.png" alt="" /></a>
                                     </div>
 									<ul class="footer-info-list">
 										<li><span class="icon fa fa-location-arrow"></span>Ariana soghra, Ariana,<br>Tunisia</li>
@@ -111,7 +111,7 @@
 					<div class="sidebar-info-contents">
 						<div class="content-inner">
 							<div class="logo">
-								<a href="index.html"><img src="assets/images/logo.png" alt="" /></a>
+								<a href="index.html"><img src="<?=URL?>assets/images/logo.png" alt="" /></a>
 							</div>
 							<div class="content-box">
 								<h2>About Us</h2>
@@ -164,24 +164,24 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
 
-<script src="assets/js/jquery.js"></script>
+<script src="<?=URL?>assets/js/jquery.js"></script>
 
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/parallax.min.js"></script>
-<script src="assets/js/tilt.jquery.min.js"></script>
-<script src="assets/js/jquery.paroller.min.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/mixitup.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/validate.js"></script>
-<script src="assets/js/nav-tool.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/color-settings.js"></script>
+<script src="<?=URL?>assets/js/popper.min.js"></script>
+<script src="<?=URL?>assets/js/bootstrap.min.js"></script>
+<script src="<?=URL?>assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="<?=URL?>assets/js/jquery.fancybox.js"></script>
+<script src="<?=URL?>assets/js/appear.js"></script>
+<script src="<?=URL?>assets/js/parallax.min.js"></script>
+<script src="<?=URL?>assets/js/tilt.jquery.min.js"></script>
+<script src="<?=URL?>assets/js/jquery.paroller.min.js"></script>
+<script src="<?=URL?>assets/js/owl.js"></script>
+<script src="<?=URL?>assets/js/mixitup.js"></script>
+<script src="<?=URL?>assets/js/wow.js"></script>
+<script src="<?=URL?>assets/js/validate.js"></script>
+<script src="<?=URL?>assets/js/nav-tool.js"></script>
+<script src="<?=URL?>assets/js/jquery-ui.js"></script>
+<script src="<?=URL?>assets/js/script.js"></script>
+<script src="<?=URL?>assets/js/color-settings.js"></script>
 
 </body>
 
