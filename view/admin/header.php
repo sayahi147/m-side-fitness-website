@@ -52,11 +52,15 @@
                             <span class="nav-label">Planning</span>
                         </a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="<?=URL?>pricing">
-                            <i class="fas fa-tag"></i>
+                   <li class="has-submenu">
+                        <a href="#" class="has-arrow mm-collapsed">
+                            <i class="fas fa-users"></i>
                             <span class="nav-label">Pricing</span>
                         </a>
+                        <ul class="list-unstyled mm-collapse">
+                            <li><a href="<?=URL?>pricing/create">New Pack</a></li>
+                            <li><a href="<?=URL?>pricing">All Packs</a></li>
+                        </ul>
                     </li>
                 </ul>
             </nav>

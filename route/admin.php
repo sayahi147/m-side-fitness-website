@@ -26,15 +26,20 @@ switch(PATH){
 
     /* Pricing */
     case "pricing":
+        include "controller/admin/prices/index.php";
         include "view/admin/pricing/index.php";
     break;
     case "pricing/create":
+        include "controller/admin/prices/create.php";
         include "view/admin/pricing/create.php";
     break;
     case "pricing/delete":
-        include "view/admin/pricing/delete.php";
+        include "controller/admin/prices/delete.php";
+        include "controller/admin/prices/index.php";
+        include "view/admin/pricing/index.php";
     break;
     case "pricing/update":
+        include "controller/admin/prices/update.php";
         include "view/admin/pricing/update.php";
     break;
     case "pricing/read":

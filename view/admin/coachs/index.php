@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="col-4 float-end">
                                             <a href="<?=URL?>coachs/create" class="btn btn-primary float-end">New
-                                                Patient</a>
+                                                Coach</a>
                                         </div>
                                     </div>
                                 </div>
