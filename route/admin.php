@@ -9,15 +9,20 @@ switch(PATH){
 
     /* Planning */
     case "planning":
+        include "controller/admin/planning/index.php";
         include "view/admin/planning/index.php";
     break;
     case "planning/create":
+         include "controller/admin/planning/create.php";
         include "view/admin/planning/create.php";
     break;
     case "planning/delete":
-        include "view/admin/planning/delete.php";
+        include "controller/admin/planning/delete.php";
+        include "controller/admin/planning/index.php";
+        include "view/admin/planning/index.php";
     break;
     case "planning/update":
+        include "controller/admin/planning/update.php";
         include "view/admin/planning/update.php";
     break;
     case "planning/read":
@@ -71,5 +76,5 @@ switch(PATH){
     break;
 
     default:
-        include "controller/public.php";
+        include "route/public.php";
 }

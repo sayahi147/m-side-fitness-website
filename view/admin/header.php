@@ -47,10 +47,14 @@
                         </ul>
                     </li>
                     <li class="has-submenu">
-                        <a href="<?=URL?>planning">
-                            <i class="fas fa-calendar-alt"></i>
+                    <a href="#" class="has-arrow mm-collapsed">
+                            <i class="fas fa-users"></i>
                             <span class="nav-label">Planning</span>
                         </a>
+                        <ul class="list-unstyled mm-collapse">
+                            <li><a href="<?=URL?>planning/create">Add planning</a></li>
+                            <li><a href="<?=URL?>planning">Planning</a></li>
+                        </ul>
                     </li>
                    <li class="has-submenu">
                         <a href="#" class="has-arrow mm-collapsed">
